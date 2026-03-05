@@ -16,9 +16,9 @@ const HeroSection = () => {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="mb-8"
+          className="mb-6"
         >
-          <img src={miracodeLogo} alt="Mira Code logo" className="w-32 h-32 mx-auto rounded-full shadow-glow" />
+          <img src={miracodeLogo} alt="Mira Code logo" className="w-28 h-28 mx-auto rounded-full shadow-glow" />
         </motion.div>
 
         <motion.div
@@ -32,15 +32,14 @@ const HeroSection = () => {
           </div>
         </motion.div>
 
-        <motion.h1
-          className="text-5xl md:text-7xl lg:text-8xl font-bold font-display tracking-tight mb-6"
+        <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.15 }}
+          className="mb-2"
         >
-          <span className="text-gradient">MIRA</span>{" "}
-          <span className="text-foreground">CODE</span>
-        </motion.h1>
+          <img src={miracodeLogo} alt="MIRA CODE" className="h-20 md:h-28 lg:h-36 mx-auto object-contain" />
+        </motion.div>
 
         <motion.p
           className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto mb-10 font-body"
