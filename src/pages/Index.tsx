@@ -1,12 +1,26 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import HeroSection from "@/components/HeroSection";
+import CompetenciesSection from "@/components/CompetenciesSection";
+import ProjectsSection from "@/components/ProjectsSection";
+import AdvantagesSection from "@/components/AdvantagesSection";
+import ContactSection from "@/components/ContactSection";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background">
+      <HeroSection />
+      <CompetenciesSection />
+      <ProjectsSection />
+      <AdvantagesSection />
+      <ContactSection />
+
+      {/* Footer */}
+      <footer className="py-8 border-t border-border">
+        <div className="container mx-auto px-6 text-center">
+          <p className="text-sm text-muted-foreground">
+            © {new Date().getFullYear()} Mira Code. Все права защищены.
+          </p>
+        </div>
+      </footer>
     </div>
   );
 };
