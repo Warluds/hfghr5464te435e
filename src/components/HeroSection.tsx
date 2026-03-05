@@ -16,9 +16,9 @@ const HeroSection = () => {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="mb-8"
+          className="mb-6"
         >
-          <img src={miracodeLogo} alt="Mira Code logo" className="w-32 h-32 mx-auto rounded-full shadow-glow" />
+          <img src={miracodeLogo} alt="Mira Code logo" className="w-28 h-28 mx-auto rounded-full shadow-glow" />
         </motion.div>
 
         <motion.div
