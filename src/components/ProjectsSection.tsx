@@ -89,11 +89,11 @@ const ProjectsSection = () => {
               className="p-6 rounded-xl bg-gradient-card border border-border hover:border-primary/30 transition-colors shadow-card"
             >
               <div className="flex items-center justify-between mb-3">
-                <span className="text-xs font-medium px-3 py-1 rounded-full bg-primary/10 text-primary">
+                <span className="text-xs font-medium px-3 py-1 rounded-full bg-primary/10 text-primary notranslate" translate="no">
                   {client.tag}
                 </span>
               </div>
-              <h3 className="font-display font-semibold text-foreground mb-2">{client.name}</h3>
+              <h3 className="font-display font-semibold text-foreground mb-2 notranslate" translate="no">{client.name}</h3>
               <p className="text-sm text-muted-foreground leading-relaxed">{client.desc}</p>
             </motion.div>
           ))}

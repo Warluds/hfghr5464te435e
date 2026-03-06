@@ -34,7 +34,7 @@ const ContactSection = () => {
               </a>
             </div>
 
-            <p className="text-sm text-muted-foreground mt-8">ТОО "Mira Code"</p>
+            <p className="text-sm text-muted-foreground mt-8 notranslate" translate="no">ТОО "Mira Code"</p>
           </div>
         </motion.div>
       </div>
