@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import miracodeLogo from "@/assets/miracode-logo.png";
-import miracodeText from "@/assets/miracode-text.jpg";
+import miracodeText from "@/assets/miracode-text.png";
 
 const HeroSection = () => {
   return (
