@@ -39,7 +39,7 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 0.15 }}
           className="mb-2"
         >
-          <img src={miracodeLogo} alt="MIRA CODE" className="h-20 md:h-28 lg:h-36 mx-auto object-contain" />
+          <img src={miracodeText} alt="MIRA CODE" className="h-20 md:h-28 lg:h-36 mx-auto object-contain" />
         </motion.div>
 
         <motion.p
